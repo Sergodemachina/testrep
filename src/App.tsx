@@ -1,7 +1,8 @@
 import React from 'react';
+import MainPage from './components/MainPage';
 
-function App() {
-  return <div className="App"> hello world</div>;
-}
+const App = () => {
+  return <MainPage />;
+};
 
 export default App;
